@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me.jpg'
+import ME from '../../assets/my-pic.jpg'
 import { BiTime } from 'react-icons/bi'
 import { AiFillFolder } from 'react-icons/ai'
 
