@@ -3,6 +3,7 @@ import './about.css'
 import ME from '../../assets/my-pic.jpg'
 import { BiTime } from 'react-icons/bi'
 import { AiFillFolder } from 'react-icons/ai'
+import { FaTools } from 'react-icons/fa'
 
 export default function About() {
     return (
@@ -26,10 +27,17 @@ export default function About() {
                         </article>
 
                         <article className='about__card'>
+                            <FaTools className='about__icon' />
+                            <h5>Skills</h5>
+                            <small>html css javascript react redux git </small>
+                        </article>
+
+                        <article className='about__card'>
                             <AiFillFolder className='about__icon' />
                             <h5>Projects</h5>
                             <small>2 + completed</small>
                         </article>
+
                     </div>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aut enim, ratione quisquam reprehenderit dolores at laborum dolore, nemo cum non adipisci rerum obcaecati tempore maiores ex ducimus iste totam doloribus minima, vitae facilis!</p>
