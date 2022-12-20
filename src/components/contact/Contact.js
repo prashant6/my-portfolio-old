@@ -42,7 +42,7 @@ export default function Contact() {
           <article className="contact__option">
             <BsWhatsapp className='contact__option--icon' />
             <h4>WhatsApp</h4>
-            <h5>+91-9717585208@gmail.com</h5>
+            <h5>+91-9717585208</h5>
             <a href="https://api.whatsapp.com/send?phone=9717585208" target="_blank">Send a message</a>
           </article>
            
