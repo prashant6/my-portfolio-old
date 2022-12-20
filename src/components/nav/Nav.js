@@ -9,12 +9,6 @@ import { useState } from 'react'
 export default function Nav() {
   const [activeNav, setActiveNav] = useState('#')
 
-  const activeClass = (event) => {
-    event.stopPropagation()
-    event.target.className = 'active'
-    console.log(event.target.className)
-  }
-
   return (
     <nav>
 
@@ -27,4 +21,3 @@ export default function Nav() {
     </nav>
   )
 }
-
