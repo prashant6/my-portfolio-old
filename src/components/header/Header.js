@@ -11,7 +11,7 @@ export default function Header() {
         <div className="container header__container">
           <h5>Hello I'm</h5>
           <h1>Prashant Singh</h1>
-          <h5 className="text-light">Front End Developer</h5>
+          <h5 className="text-light">fullstack Developer</h5>
 
           <CallToAction />
           <HeaderSocials />
