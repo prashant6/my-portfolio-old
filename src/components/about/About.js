@@ -40,9 +40,7 @@ export default function About() {
 
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aut enim, ratione quisquam reprehenderit dolores at laborum dolore, nemo cum non adipisci rerum obcaecati tempore maiores ex ducimus iste totam doloribus minima, vitae facilis!</p>
-
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    <a href="#contact" className='btn btn-primary' style={{marginTop:"3rem"}}>Let's Talk</a>
                     
                 </div>
             </div>
